@@ -42,7 +42,7 @@ import matplotlib.pyplot as plt
 ### Step 2:
 Read the input image (e.g., `image.jpg`).
 ```python
-img = cv2.imread('Downloads/WALT.jpg')
+img = cv2.imread('image.jpg')
 
 ```
 ### Step 3:
@@ -150,41 +150,53 @@ for i in range(8):
 plt.tight_layout()
 plt.show()
 ```
-<img width="1372" height="716" alt="Screenshot 2026-11-04 083348" src="https://github.com/user-attachments/assets/55ec7aed-7344-44d8-b512-105ed2c02e7d" />
 
 ---
 
 ##  Developed By
 
-- **Name:** ASHWIN BAALAJI V K
-- **Register No:** 212225230026
+- **Name:** M BALASURIYA
+- **Register No:** 212224240021
 
 ---
 
 ##  Output
+<img width="578" height="342" alt="image" src="https://github.com/user-attachments/assets/fe47b090-a392-4d45-9fc5-2db10f8f300a" />
+
 
 ### Smoothing Filters
 
 - Averaging filter produces blurred image
-<img width="1033" height="532" alt="Screenshot 2026-11-04 083146" src="https://github.com/user-attachments/assets/f449442a-9bc5-462d-849e-6dd78b22966d" />
+<img width="817" height="247" alt="image" src="https://github.com/user-attachments/assets/a634472d-7df7-4ba6-9557-56b5dc0efa0e" />
+
+
+
+
 
 - Weighted averaging provides smoother result with less distortion
-<img width="1037" height="546" alt="Screenshot 2026-11-04 083311" src="https://github.com/user-attachments/assets/0d76957d-ffeb-4062-a202-f84df4c847cb" />
+<img width="830" height="252" alt="image" src="https://github.com/user-attachments/assets/1f3d42e0-e8fe-40fc-9e2a-59a37dd9f833" />
+
 
 - Gaussian filter preserves edges better while reducing noise
-<img width="1027" height="547" alt="Screenshot 2026-11-04 083318" src="https://github.com/user-attachments/assets/4064df13-9cef-4947-a673-1f891a7f7059" />
+<img width="827" height="257" alt="image" src="https://github.com/user-attachments/assets/36af0a8d-5b61-4bf4-9000-4d05392b2a40" />
+
 
 - Median filter removes salt-and-pepper noise effectively
-<img width="1012" height="543" alt="Screenshot 2026-11-04 083324" src="https://github.com/user-attachments/assets/9f0ad6f4-3ada-490b-abd0-86b0a48ac334" />
+<img width="815" height="248" alt="image" src="https://github.com/user-attachments/assets/8c1a6c06-4383-4366-9510-92e98cb43899" />
+
 
 
 ###  Sharpening Filters
 
 - Laplacian kernel enhances edges and fine details
-<img width="1028" height="530" alt="Screenshot 2026-11-04 083330" src="https://github.com/user-attachments/assets/f50e20f0-d272-453e-8c15-319cb874a1fa" />
+<img width="815" height="247" alt="image" src="https://github.com/user-attachments/assets/b4b7b0f6-30ad-45d9-b8dc-2e8fdd53a416" />
+
 
 - Laplacian operator detects edges clearly in grayscale  
-<img width="1025" height="537" alt="Screenshot 2026-11-04 083336" src="https://github.com/user-attachments/assets/1061420e-5246-4d8f-ab6a-6cf4d5811da3" />
+<img width="837" height="252" alt="image" src="https://github.com/user-attachments/assets/1ca702eb-6676-4d5f-a65e-1b03088f69bb" />
+
+<img width="1002" height="380" alt="image" src="https://github.com/user-attachments/assets/81535960-df79-41c9-acc3-89f0d6a43a7c" />
+
 
 ---
 
